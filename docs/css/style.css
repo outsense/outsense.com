@@ -474,6 +474,16 @@ main section.technologyEn ul li span {
 main section.concept h2 {
   line-height: 1.3;
 }
+main section.conceptEn h2 {
+  line-height: 1.3;
+}
+main section.conceptEn div.gif {
+  background-image: url(../images/concept/concept.gif);
+  margin-top: 5rem;
+}
+main section.conceptEn div.useimage {
+  background-image: url(../images/concept/useimage.jpg);
+}
 main section.company a {
   color: #ffa200;
 }

@@ -1,13 +1,13 @@
 import { h } from "hyperapp"; // @jsx h
 
 export default () => state => (
-  <section className="concept">
+  <section className="conceptEn">
     <h1>Concept</h1>
     <h2>
       With stability and safety, dramatically reducing cost of building
       facilities on the Moon
     </h2>
-
+    <div className="gif"></div>
     <p>
       Our goal is to make 3D foldable structures in space, especially on the
       Moon (including manned and unmanned facilities).
@@ -34,5 +34,6 @@ export default () => state => (
       It can accelerate the construction of the facility and the preparation for
       various business on the Moon in the initial phase.
     </p>
+    <div className="useimage"></div>
   </section>
 );
